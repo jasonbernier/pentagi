@@ -28,6 +28,7 @@
 - [How to Use PentAGI After Login](#how-to-use-pentagi-after-login)
 - [API Access](#api-access)
   - [LLM Provider Configuration](#custom-llm-provider-configuration)
+    - [Local Codex sign-in bridge](examples/guides/codex-local-bridge.md)
     - [Azure OpenAI](#using-azure-openai)
     - [Ollama](#ollama-provider-configuration)
     - [OpenAI](#openai-provider-configuration)
@@ -96,6 +97,7 @@ You can watch the video **PentAGI overview**:
 - BAS-like agent-authored attack scripts should be treated as conceptual or future work, not as a feature that is implemented today.
 - The current flow report UI supports web view, copy to clipboard, Markdown download, and PDF download. JSON flow-report export is not documented as a supported output format today.
 - Provider flexibility is available today through built-in providers and custom/OpenAI-compatible endpoints. See [Custom LLM Provider Configuration](#custom-llm-provider-configuration) and the [vLLM + Qwen3.5-27B-FP8 guide](examples/guides/vllm-qwen35-27b-fp8.md).
+- A local [Codex sign-in bridge](examples/guides/codex-local-bridge.md) can provide an experimental Custom LLM endpoint without an OpenAI API key.
 
 ## Architecture
 
